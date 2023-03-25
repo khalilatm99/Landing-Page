@@ -136,3 +136,38 @@ a:visited{
     align-self: self-end;
     font-weight: bold;
 }
+
+.container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 80px;
+        margin: 100px 150px;
+        border-radius: 7px;
+        background-color: #3882f6; 
+        color: #e5e7eb;
+}
+
+.left-container{
+    font-size: 24px;
+    font-weight: bold;
+}
+ .button2{
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-width: 3px;
+    padding: 5px 35px;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
